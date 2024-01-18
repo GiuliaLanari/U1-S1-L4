@@ -1,12 +1,22 @@
 /* IMPOSTAZIONI GENERALI */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
+html {
+  background-image: ;
+}
 body {
+  background-image: url(../img/sfondo.png);
   font-family: "Poppins", sans-serif;
-  width: 20rem;
+  width: 90%;
   line-height: 1.4;
   margin-inline: auto;
+  margin-block: 1rem;
 }
+
+.sfondo {
+  background-color: white;
+}
+
 /* HEADER */
 .header {
   font-weight: bold;
@@ -23,7 +33,7 @@ body {
 }
 /* MAIN */
 main {
-  background-color: white;
+  padding: 1rem;
 }
 
 h1 {
@@ -50,14 +60,76 @@ code {
   background-color: lightgrey;
 }
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+ul {
+  list-style: unset;
+  line-height: 1.8rem;
+}
 
+ol {
+  list-style: revert;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.tool-site {
+  color: #01aacd;
+  font-weight: bold;
+}
 /* TABELLE */
 .titolo-tabella {
   font-weight: bold;
 }
 
+table {
+  text-align: center;
+  margin: auto;
+}
+
+thead {
+  background-color: #4d79cf;
+  color: white;
+  height: 5em;
+}
+
+tbody {
+  text-align: center;
+}
+
+.color-tab {
+  border-block: 1px solid #e7e7e8;
+  background-color: #e7e7e8;
+}
+
+.fine-tab {
+  border-block-end: 2px solid #3366cc;
+}
+
 /* FORM */
+
+.form {
+  background-color: #ddddde;
+  padding: 16px;
+  margin-block: 1rem;
+}
+
+form {
+  text-align: center;
+}
+
+iframe {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+#user_email {
+  border-bottom: 1px dashed;
+  font-size: 1.1rem;
+}
+
+button {
+  font-size: 1.1rem;
+}
 
 /* ELEMENTI NELL' ASIDE */
 
@@ -71,20 +143,27 @@ h2 {
 }
 
 .categoria {
+  padding: 16px;
+  margin-bottom: 1rem;
+  height: 130px;
   background-color: #ddddde;
+}
+
+.categoria-siti {
+  font-weight: bold;
+  color: #0099cc;
 }
 
 .data {
   text-align: right;
 }
+
 /* FOOTER */
 footer {
   color: white;
   background-image: linear-gradient(180deg, #005566, #2a3338);
   text-align: center;
-  padding: 5px;
-  margin-block-end: 1rem;
-  font-size: 0.8rem;
+  padding: 1rem;
 }
 
 .email {
