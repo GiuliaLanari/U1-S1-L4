@@ -1,9 +1,6 @@
 /* IMPOSTAZIONI GENERALI */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
-html {
-  background-image: ;
-}
 body {
   background-image: url(../img/sfondo.png);
   font-family: "Poppins", sans-serif;
@@ -92,6 +89,16 @@ thead {
 
 tbody {
   text-align: center;
+}
+
+th {
+  padding-block: 30px;
+  padding-inline: 10px;
+  border-inline-end: 1px solid white;
+}
+
+.riga-tab {
+  padding-block: 10px;
 }
 
 .color-tab {
