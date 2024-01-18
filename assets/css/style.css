@@ -1,0 +1,92 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 20rem;
+  line-height: 1.4;
+  margin-inline: auto;
+}
+/* HEADER */
+.header {
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  background-color: #0099bb;
+  color: white;
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: none;
+  color: white;
+}
+/* MAIN */
+main {
+  background-color: white;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+p {
+  margin-block: 2rem;
+}
+
+.sotto-titolo {
+  color: gray;
+}
+
+strong {
+  font-weight: bold;
+  color: #aa2072;
+}
+
+code {
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+.titolo-tabella {
+  font-weight: bold;
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-block: 1rem;
+  font-size: 1.2rem;
+  color: #2a3338;
+}
+
+.categoria {
+  background-color: #ddddde;
+}
+
+.data {
+  text-align: right;
+}
+/* FOOTER */
+footer {
+  color: white;
+  background-image: linear-gradient(180deg, #005566, #2a3338);
+  text-align: center;
+  padding: 5px;
+  margin-block-end: 1rem;
+  font-size: 0.8rem;
+}
+
+.email {
+  color: #ff00fe;
+}
